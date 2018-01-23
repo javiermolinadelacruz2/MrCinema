@@ -17,7 +17,7 @@ app.controller('trendCtrl', function ($scope, $http) {
         $http.get(path)
             .then(function (response) {
                 $scope.details = response.data.results;
-                console.log($scope.details);
+                //console.log($scope.details);
 
             });
     }

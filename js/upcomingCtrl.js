@@ -24,6 +24,7 @@ app.controller('UpcomingCtrl', function ($scope, $http) {
 
     $scope.update = function (movie) {
         $scope.search = movie.Title;
+        console.log(movie.Title);
     };
 
     $scope.select = function () {
